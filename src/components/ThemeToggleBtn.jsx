@@ -1,6 +1,8 @@
 
 import assets from '../assets/assets'
-import React,{useEffect} from 'react'
+import {useEffect} from 'react'
+
+
 
 
 

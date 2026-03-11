@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from "react";
 import assets from '../assets/assets'
 import ThemeToggleBtn from './ThemeToggleBtn'
@@ -9,7 +9,7 @@ const Navbar = ({theme, setTheme}) => {
 
   return (
     <div className='flex justify-between items-center px-4
-    sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium by-white/50
+    sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50
     dark:bg-gray-900/70'> 
       <img src={theme === 'dark' ? assets.logo_dark: assets.logo}
         className='w-32 sm:w-40'alt=''/>
@@ -43,7 +43,7 @@ const Navbar = ({theme, setTheme}) => {
 
           <a href="#contact-us" className='text-sm max-sm:hidden flex
           items-center gap-2 bg-primary text-white px-6 py-2 rounded-full
-          cursor-pointer hover:scale-103 transition-all'>
+          cursor-pointer hover:scale-105 transition-all'>
             Connect <img src={assets.arrow_icon}  width={14} alt='' />
           </a>
         </div>
