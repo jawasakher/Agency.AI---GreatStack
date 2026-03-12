@@ -8,7 +8,7 @@ import {useEffect} from 'react'
 
 const ThemeToggleBtn = ({theme, setTheme}) => {
     
-    useEffect(() => {
+   useEffect(() => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     setTheme(theme || ( prefersDark ? 'dark' : 'light'))
     }, [])
