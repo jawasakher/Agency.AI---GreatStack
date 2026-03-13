@@ -1,22 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 @import "tailwindcss";
 
-@custom-variant dark {
-  .dark & {
-    @apply dark;
-  }
-}
+@custom-variant dark (&:where(.dark, .dark *));
+ 
 
 *{
-   font-family: "Poppins", sans-serif;
+   font-family: "Manrope", sans-serif;
    font-weight: 500;
 }
 @theme{
---color-primary: #5044E5;   
+  --color-primary: #5044E5;   
 
 }
