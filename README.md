@@ -7,9 +7,8 @@ This project demonstrates clean component architecture, modern UI design, and sm
 🔗 GitHub Repository  
 https://github.com/jawasakher/Agency.AI---GreatStack.git
 <p align="center">
-  <img src="Agency.AI.1.png" alt="First Website Preview" width="250"/>
-  <img src="Agency.AI.2.png" alt="First Website Preview" width="250"/>
-  <img src="Agency.AI.3.png" alt="First Website Preview" width="500"/>
+  <img src="Agency.AI.1.png" alt="First Website Preview" width="500"/>
+  <img src="Agency.AI.2.png" alt="First Website Preview" width="500"/>
 </p>
 ---
 
