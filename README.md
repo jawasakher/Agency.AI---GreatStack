@@ -1,16 +1,62 @@
-# React + Vite
+# 🚀 Agency.AI - Modern React Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive digital agency website built using **React.js** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project demonstrates clean component architecture, modern UI design, and smooth animations suitable for real-world agency websites.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 GitHub Repository  
+https://github.com/jawasakher/Agency.AI---GreatStack.git
+<p align="center">
+  <img src="Agency.AI.1.png" alt="First Website Preview" width="500" height="500"/>
+  <img src="Agency.AI.2.png" alt="First Website Preview" width="500" height="500" />
+</p>
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern and responsive UI
+- Built with React functional components
+- Tailwind CSS for fast styling
+- Smooth animations and hover effects
+- Reusable component architecture
+- Clean and scalable folder structure
+- Contact section UI
+- Dark/Light theme support
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+The project follows a **component-based architecture**, making it easy to maintain and scale.
+
+---
+
+## 🎯 What I Learned
+
+While building this project I practiced:
+
+- Building modern UI with React
+- Creating reusable components
+- Managing state with React hooks
+- Structuring scalable frontend projects
+- Responsive design with Tailwind CSS
+- Debugging and fixing React errors
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/jawasakher/Agency.AI---GreatStack.git
