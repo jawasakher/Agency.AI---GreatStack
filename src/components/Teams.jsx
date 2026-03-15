@@ -2,7 +2,7 @@ import React from 'react'
 import Title from './Title'
 import { teamData } from '../assets/assets'
 
-const Teams = () => {
+const Teams = ({theme}) => {
   return (
     <div className='flex flex-col items-center gap-7 px-4 sm:px-12
     lg:px-24 xl:px-40 pt-30 text-gray-800 dark:text-whitd'>
@@ -17,10 +17,10 @@ const Teams = () => {
             rounded-xl border border-gray-100 dark:border-gray-700 bg-white
             dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5
              hover:scale-103 transition-all duration-400'>
-                <img src={team.image}  className='w-12 h-12 rounded-full' alt=""/>
+                <img src={ theme === 'dark' ? team.image :  team.image}  className='w-12 h-12 rounded-full' alt=""/>
                 <div className='flex-1'>
-                <h3 className='font-bold taxt-sm'>{team.name}</h3>
-                <p className='text-x5 opacity-60'>{team.title}</p>
+                <h3 className='font-bold taxt-sm'>{theme === 'dark' ? team.name  :  team.name}</h3>
+                <p className='text-x5 opacity-60'>{theme === 'dark' ? team.title :  team.title}</p>
                 </div>
             </div>
         ))}
