@@ -51,7 +51,7 @@ const Footer = ({theme}) => {
       <button className='bg-primary text-white rounded
       px-6'>Subscribe</button>
       </div>
-    </div>
+    </motion.div>
     </div>
     <hr className='border-gray-300 dark:border-gray-600 my-6'/>
 
@@ -71,7 +71,7 @@ const Footer = ({theme}) => {
         <img src={assets.twitter_icon} alt=""/>
       </div>
     </motion.div>
-    </div>
+    </motion.div>
   )
 }
 
