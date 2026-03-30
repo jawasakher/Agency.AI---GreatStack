@@ -5,7 +5,7 @@ A modern and fully responsive digital agency website built using **React.js** an
 This project demonstrates clean component architecture, modern UI design, and smooth animations suitable for real-world agency websites.
 
 ## 🔗 Live Demo
-👉 https://dainty-cascaron-1f0c37.netlify.app/
+👉 https://angency12.netlify.app/
 
 🔗 GitHub Repository  
 https://github.com/jawasakher/Agency.AI.git
